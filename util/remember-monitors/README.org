@@ -1,0 +1,17 @@
+** Usage
+
+Put:
+
+#+BEGIN_SRC lisp
+(load-module "remember-monitors")
+#+END_SRC
+
+In your =~/.stumpwmrc=.
+
+From then on, whenever you plug in and out your external monitor, your
+windows will be put where they make the most sense.
+
+For example, if you unplug your external monitor, all the windows will
+be put in the remaining screen instead of remaining on the dead
+screen. If you plug the monitor back in, the windows will be sent back
+to where they were on the external monitor.
